@@ -1,7 +1,7 @@
-package app.servlets;
+package app.controller.command;
 
-import app.dao.UserDao;
-import app.dao.impl.UserDatabaseDao;
+import app.controller.service.UserService;
+import app.controller.service.impl.UserServiceImpl;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -10,18 +10,28 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ListServlet extends HttpServlet
 {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        UserDao userDao = new UserDatabaseDao();
-        List<User> user = userDao.findAll();
-        List<String> names = user.stream().map(User::getName).collect(Collectors.toList());
-        req.setAttribute("userNames",names);
+        UserService userService = new UserServiceImpl();
+        List<User> users = userService.findAll();
+
+        List<String>user = new ArrayList<>();
+
+        if(users != null)
+        {
+        for(User u : users)
+        {
+            user.add(u.getMail());
+        }
+        }
+
+        req.setAttribute("user",user);
 
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/list.jsp");
