@@ -16,10 +16,10 @@ public class UserDatabaseDao implements UserDao
 	private static final String ID = "postgres";
 	private static final String PASS = "4f1d18e0";
 
-    private static final String CREATE = "INSERT INTO users(name,pass) VALUES(?,?)";
-    private static final String UPDATE = "UPDATE users SET name = ?, pass = ? WHERE name = ?AND pass = ?";
-    private static final String DELETE = "DELETE FROM users WHERE name = ? AND pass = ?";
-    private static final String FIND_BY_NAMES = "SELECT * FROM users WHERE name = ?";
+    private static final String CREATE = "INSERT INTO users(mail,pass) VALUES(?,?)";
+    private static final String UPDATE = "UPDATE users SET mail = ?, pass = ? WHERE mail = ?AND pass = ?";
+    private static final String DELETE = "DELETE FROM users WHERE mail = ? AND pass = ?";
+    private static final String FIND_BY_NAMES = "SELECT * FROM users WHERE mail = ?";
     private static final String FIND_BY_ID = "SELECT * FROM users WHERE id = ?";
     private static final String FIND_ALL = "SELECT * FROM users ORDER BY id";
 
@@ -29,7 +29,7 @@ public class UserDatabaseDao implements UserDao
     {
         try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(CREATE))
         {
-            preparedStatement.setString(1,user.getName());
+            preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
             preparedStatement.execute();
             return true;
@@ -51,9 +51,9 @@ public class UserDatabaseDao implements UserDao
 
         try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(UPDATE))
         {
-            preparedStatement.setString(1,newUser.getName());
+            preparedStatement.setString(1,newUser.getMail());
             preparedStatement.setString(2,newUser.getPassword());
-            preparedStatement.setString(3,oldUser.getName());
+            preparedStatement.setString(3,oldUser.getMail());
             preparedStatement.setString(4,oldUser.getPassword());
             preparedStatement.executeUpdate();
             return newUser;
@@ -70,7 +70,7 @@ public class UserDatabaseDao implements UserDao
     {
         try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS);PreparedStatement preparedStatement = connection.prepareStatement(DELETE))
         {
-            preparedStatement.setString(1,user.getName());
+            preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
             preparedStatement.executeUpdate();
             return true;
@@ -83,25 +83,25 @@ public class UserDatabaseDao implements UserDao
     }
 
     @Override
-    public User findByNames(String name)
+    public User findByMail(String mail)
     {
         try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_NAMES))
         {
-            preparedStatement.setString(1,name);
+            preparedStatement.setString(1,mail);
 
             ResultSet resultSet = preparedStatement.executeQuery();
 
             if(resultSet.next())
             {
                User user = new User();
-               user.setName(resultSet.getString("name"));
+               user.setMail(resultSet.getString("mail"));
                user.setPassword(resultSet.getString("pass"));
                 return user;
             }else
             return null ;
         }catch (SQLException ex)
         {
-            throw new RuntimeException(String.format("Cannot find user by name = ?",name),ex);
+            throw new RuntimeException(String.format("Cannot find user by name = ?",mail),ex);
         }
 
     }
@@ -117,7 +117,7 @@ public class UserDatabaseDao implements UserDao
             if(resultSet.next())
             {
                 User user = new User();
-                user.setName(resultSet.getString("name"));
+                user.setMail(resultSet.getString("mail"));
                 user.setPassword(resultSet.getString("pass"));
                 return user;
             }else
@@ -139,7 +139,7 @@ public class UserDatabaseDao implements UserDao
                 while (resultSet.next())
                 {
                     User user = new User();
-                    user.setName(resultSet.getString("name"));
+                    user.setMail(resultSet.getString("mail"));
                     user.setPassword(resultSet.getString("pass"));
                     users.add(user);
                 }

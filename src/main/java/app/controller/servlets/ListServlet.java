@@ -1,7 +1,9 @@
-package app.controller.command;
+package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
+import app.dao.UserDao;
+import app.dao.impl.UserDatabaseDao;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;

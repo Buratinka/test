@@ -63,8 +63,8 @@
     <schema id="16" parent="8" name="public">
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
-      <IntrospectionTimestamp>2018-12-05.07:49:04.770</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1084</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-12-16.15:33:43.778</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1169</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -101,7 +101,7 @@
     </sequence>
     <table id="24" parent="16" name="users">
       <ObjectId>25125</ObjectId>
-      <StateNumber>1084</StateNumber>
+      <StateNumber>1168</StateNumber>
     </table>
     <column id="25" parent="24" name="id">
       <Position>1</Position>
@@ -112,16 +112,58 @@
       <TypeId>23</TypeId>
       <SequenceName>users_id_seq</SequenceName>
     </column>
-    <column id="26" parent="24" name="name">
+    <column id="26" parent="24" name="fname">
       <Position>2</Position>
       <DataType>varchar(25)|0s</DataType>
-      <StateNumber>1084</StateNumber>
+      <StateNumber>1169</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="27" parent="24" name="pass">
       <Position>3</Position>
       <DataType>varchar(25)|0s</DataType>
       <StateNumber>1084</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="28" parent="24" name="login">
+      <Position>4</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <StateNumber>1162</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="29" parent="24" name="sname">
+      <Position>5</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <StateNumber>1163</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="30" parent="24" name="mail">
+      <Position>6</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <StateNumber>1164</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="31" parent="24" name="cash">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1165</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="32" parent="24" name="accesslevel">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1166</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="33" parent="24" name="age">
+      <Position>9</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1167</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="34" parent="24" name="phone">
+      <Position>10</Position>
+      <DataType>varchar(13)|0s</DataType>
+      <StateNumber>1168</StateNumber>
       <TypeId>1043</TypeId>
     </column>
   </database-model>

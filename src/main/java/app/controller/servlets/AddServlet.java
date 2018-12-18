@@ -1,5 +1,7 @@
-package app.controller.command;
+package app.controller.servlets;
 
+import app.controller.service.UserService;
+import app.controller.service.impl.UserServiceImpl;
 import app.dao.UserDao;
 import app.dao.impl.UserDatabaseDao;
 import app.model.User;
@@ -28,10 +30,10 @@ public class AddServlet extends HttpServlet
 
 
 
-        if(!pass.equals("")||!mail.equals("")) {
+        if(!pass.equals("")&&!mail.equals("")) {
             User user = new User(mail,pass);
-            UserDao userDao = new UserDatabaseDao();
-            userDao.add(user);
+            UserService userService = new UserServiceImpl();
+            userService.add(user);
 
 
             req.setAttribute("userData", mail);

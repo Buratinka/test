@@ -1,8 +1,10 @@
-package app.controller.command;
+package app.controller.servlets;
 
-import app.model.User;
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
+import app.dao.UserDao;
+import app.dao.impl.UserDatabaseDao;
+import app.model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -21,11 +23,11 @@ public class DeleteServlet extends HttpServlet
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String wrongData = "Wrong data !";
+        String wrongData = "Empty some field!";
         String mail = req.getParameter("mail");
         String pass = req.getParameter("pass");
 
-        if(!mail.equals("") || !pass.equals("")) {
+        if(!mail.equals("") && !pass.equals("")) {
             User user = new User(mail, pass);
             UserService userService = new UserServiceImpl();
             userService.delete(user);

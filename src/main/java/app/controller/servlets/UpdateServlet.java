@@ -1,5 +1,7 @@
-package app.controller.command;
+package app.controller.servlets;
 
+import app.controller.service.UserService;
+import app.controller.service.impl.UserServiceImpl;
 import app.dao.UserDao;
 import app.dao.impl.UserDatabaseDao;
 import app.model.User;
@@ -23,7 +25,7 @@ public class UpdateServlet extends HttpServlet
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String wrongData = "Wrong data !";
+        String wrongData = "Empty some fields !";
         String oldMail = req.getParameter("mail");
         String oldPass = req.getParameter("pass");
         String newMail = req.getParameter("newMail");
@@ -37,8 +39,8 @@ public class UpdateServlet extends HttpServlet
             users.add(oldUser);
             users.add(newUser);
 
-            UserDao userDao = new UserDatabaseDao();
-            userDao.update(users);
+            UserService userService = new UserServiceImpl();
+            userService.update(users);
 
             req.setAttribute("oldMail", oldMail);
             doGet(req, resp);

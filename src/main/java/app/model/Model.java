@@ -1,11 +1,11 @@
 package app.model;
 
-public abstract class Item
+public abstract class Model
 {
     private int id;
 
-    public Item(){}
-    public Item(int id)
+    public Model(){}
+    public Model(int id)
     {
         this.id = id;
     }

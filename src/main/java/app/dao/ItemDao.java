@@ -8,9 +8,9 @@ public interface ItemDao<T,K>
 {
    boolean add(T t);
    T update(List<T> t);
-   boolean delete(T id);
+   boolean delete(T user);
 
    User findById(K id);
-   User findByNames(String name);
+   User findByMail(String mail);
    List<T> findAll();
 }
