@@ -7,24 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab388218-12b4-4616-a689-a7f38e79e9b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Servlets_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Servlets_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c99a1a7d-8854-4488-8ed5-c2fdecb42039.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c99a1a7d-8854-4488-8ed5-c2fdecb42039.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c99a1a7d-8854-4488-8ed5-c2fdecb42039/storage_v2/_src_/database/servlets.znY2Ug/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c99a1a7d-8854-4488-8ed5-c2fdecb42039/storage_v2/_src_/database/servlets.znY2Ug/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,8 +57,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#63#64#0" expanded="true" />
+                <element signature="e#91#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,9 +201,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c99a1a7d-8854-4488-8ed5-c2fdecb42039/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" />
         <option value="$PROJECT_DIR$/web/view/update.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -578,7 +566,7 @@
       <workItem from="1544964211035" duration="496000" />
       <workItem from="1544964728061" duration="6725000" />
       <workItem from="1545130349699" duration="1062000" />
-      <workItem from="1545160579706" duration="2221000" />
+      <workItem from="1545160579706" duration="3413000" />
     </task>
     <task id="LOCAL-00001">
       <created>1544963763948</created>
@@ -591,11 +579,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97022000" />
+    <option name="totallyTimeSpent" value="98214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -934,8 +921,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#63#64#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
