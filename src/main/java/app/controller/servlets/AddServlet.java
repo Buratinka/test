@@ -2,6 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
+import app.controller.service.utils.Validation;
 import app.dao.UserDao;
 import app.dao.impl.UserDatabaseDao;
 import app.model.User;
@@ -15,6 +16,7 @@ import java.io.IOException;
 
 public class AddServlet extends HttpServlet
 {
+    private static Validation validation;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/add.jsp");
@@ -30,7 +32,7 @@ public class AddServlet extends HttpServlet
 
 
 
-        if(!pass.equals("")&&!mail.equals("")) {
+        if(validation.isEmpty(pass,mail) == false) {
             User user = new User(mail,pass);
             UserService userService = new UserServiceImpl();
             userService.add(user);

@@ -2,6 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
+import app.controller.service.utils.Validation;
 import app.dao.UserDao;
 import app.dao.impl.UserDatabaseDao;
 import app.model.User;
@@ -17,6 +18,7 @@ import java.util.List;
 
 public class ListServlet extends HttpServlet
 {
+    private static Validation validation;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -25,7 +27,7 @@ public class ListServlet extends HttpServlet
 
         List<String>user = new ArrayList<>();
 
-        if(users != null)
+        if(validation.isEmpty(users.toString()) == false)
         {
         for(User u : users)
         {

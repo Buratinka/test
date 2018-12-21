@@ -58,4 +58,15 @@ public class UserServiceImpl implements UserService
     public List<User> findAll() {
         return userDao.findAll();
     }
+
+    @Override
+    public User findByMailAndPass(String mail, String pass)
+    {
+        try {
+            return userDao.findByMailAndPass(mail, pass);
+        }catch (DataBaseException ex)
+        {
+            throw new ServiceException();
+        }
+    }
 }

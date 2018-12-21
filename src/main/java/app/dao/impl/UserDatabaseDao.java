@@ -10,13 +10,11 @@ import java.util.regex.Pattern;
 
 public class UserDatabaseDao implements UserDao
 {
-
-    //private static final String DRIVER_NAME = "org.postgresql.Driver";
 	private static final String DB_URL = "jdbc:postgresql:servlets";
 	private static final String ID = "postgres";
 	private static final String PASS = "4f1d18e0";
 
-    private static final String CREATE = "INSERT INTO users(mail,pass) VALUES(?,?)";
+    private static final String CREATE = "INSERT INTO users(mail,pass,accesslevel) VALUES(?,?,?)";
     private static final String UPDATE = "UPDATE users SET mail = ?, pass = ? WHERE mail = ?AND pass = ?";
     private static final String DELETE = "DELETE FROM users WHERE mail = ? AND pass = ?";
     private static final String FIND_BY_NAMES = "SELECT * FROM users WHERE mail = ?";
@@ -31,6 +29,7 @@ public class UserDatabaseDao implements UserDao
         {
             preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
+            preparedStatement.setInt(3,2);
             preparedStatement.execute();
             return true;
         }
@@ -149,5 +148,36 @@ public class UserDatabaseDao implements UserDao
             throw new RuntimeException("Cannt find all",ex);
         }
         return users;
+    }
+
+    @Override
+    public User findByMailAndPass(String mail, String pass)
+    {
+        final String FIND_BY_MAIL_AND_PASS = "SELECT * FROM users WHERE mail = ?, pass = ?";
+
+        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS);PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_MAIL_AND_PASS))
+        {
+            preparedStatement.setString(1,mail);
+            preparedStatement.setString(2,pass);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if(resultSet.next())
+            {
+                User user = new User(mail,pass);
+                user.setMail(mail);
+                user.setPassword(pass);
+
+                return user;
+            }
+            else
+                {
+                    return null;
+                }
+        }
+        catch (SQLException ex)
+        {
+            throw new RuntimeException(String.format("Cannot find user by mail = ?, pass = ?",mail,pass),ex);
+        }
     }
 }
