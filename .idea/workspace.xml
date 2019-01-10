@@ -7,41 +7,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab388218-12b4-4616-a689-a7f38e79e9b8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/AddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/utils/Validation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/AddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/AdminMenu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/DeleteServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/ListServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/impl/UserDatabaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/impl/UserDatabaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/view/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/view/adminmenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/view/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/view/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/view/update.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/service/utils/Validation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/AddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/utils/Validation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/AddServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/AdminMenu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/DeleteServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/ListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/ListServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/UpdateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/UpdateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/dao/impl/UserDatabaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dao/impl/UserDatabaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/adminmenu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/loginusermenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/unloginusermenu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/update.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,95 +80,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="user_page.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/user_page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/ModelService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminmenu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/adminmenu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="120" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginusermenu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/loginusermenu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unloginusermenu.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/unloginusermenu.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="388">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminMenu.java">
+      <file leaf-file-name="admin_page.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/UserServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="17" column="113" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -167,10 +130,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,29 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/app/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/servlets/DeleteServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/servlets/UpdateServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/dao/enums/Query.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/exception/NotFoundUserException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/exception/WrongDataException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/web/view/adminPage.jsp" />
-        <option value="$PROJECT_DIR$/web/view/registrationPage.jsp" />
-        <option value="$PROJECT_DIR$/web/view/userRoomPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/utils/CommandUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/AdminPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/AdminPageCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/AddServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/UserRoomCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/Model.java" />
-        <option value="$PROJECT_DIR$/web/view/delete.jsp" />
-        <option value="$PROJECT_DIR$/web/view/add.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/app/model/User.java" />
         <option value="$PROJECT_DIR$/web/view/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/app/exception/DataBaseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/exception/ServiceException.java" />
@@ -210,27 +150,50 @@
         <option value="$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/exception/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/web/view/update.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c99a1a7d-8854-4488-8ed5-c2fdecb42039/console.sql" />
         <option value="$PROJECT_DIR$/web/view/registration.jsp" />
         <option value="$PROJECT_DIR$/web/view/login.jsp" />
         <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminMenu.java" />
         <option value="$PROJECT_DIR$/web/view/adminmenu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/service/utils/Validation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" />
         <option value="$PROJECT_DIR$/web/view/loginusermenu.jsp" />
         <option value="$PROJECT_DIR$/web/view/unloginusermenu.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/filter/RoleFilter.java" />
+        <option value="$PROJECT_DIR$/web/view/user_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/exception/WrongDataException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/web/view/admin_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminMenu.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/admin_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/utils/ServletUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/delete.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/update.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/errorPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/ErrorPageServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/user_menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationData.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c99a1a7d-8854-4488-8ed5-c2fdecb42039/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/model/User.java" />
+        <option value="$PROJECT_DIR$/web/user_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/list.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/user_page.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -257,11 +220,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="335" />
-    <option name="y" value="164" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="224" />
+    <option name="y" value="20" />
+    <option name="width" value="1372" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -332,7 +295,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
@@ -360,12 +344,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlets" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlets" type="b2602c69:ProjectViewProjectNode" />
@@ -381,6 +380,90 @@
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
               <item name="c99a1a7d-8854-4488-8ed5-c2fdecb42039" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="controller" type="cbb8eebc:String" user="controller" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="controller" type="cbb8eebc:String" user="controller" />
+              <item name="servlets" type="cbb8eebc:String" user="servlets" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
+              <item name="view" type="cbb8eebc:String" user="view" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="servlets" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -404,19 +487,10 @@
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,10 +501,13 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/view" />
       <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
     </key>
   </component>
   <component name="Regex">
@@ -615,6 +692,18 @@
       <workItem from="1545130349699" duration="1062000" />
       <workItem from="1545160579706" duration="16963000" />
       <workItem from="1545288168258" duration="6119000" />
+      <workItem from="1545370892906" duration="1260000" />
+      <workItem from="1545396565731" duration="10523000" />
+      <workItem from="1545486117105" duration="16059000" />
+      <workItem from="1545822774158" duration="3327000" />
+      <workItem from="1546422516564" duration="7227000" />
+      <workItem from="1546495048046" duration="3629000" />
+      <workItem from="1546672548783" duration="236000" />
+      <workItem from="1546943555664" duration="1044000" />
+      <workItem from="1546962014791" duration="154000" />
+      <workItem from="1547033110331" duration="15936000" />
+      <workItem from="1547055384353" duration="5253000" />
+      <workItem from="1547111218656" duration="1508000" />
     </task>
     <task id="LOCAL-00001">
       <created>1544963763948</created>
@@ -627,11 +716,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117883000" />
+    <option name="totallyTimeSpent" value="184039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -641,7 +729,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Regex" order="7" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.084311634" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17716116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -653,32 +741,32 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33821872" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32919955" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.886133" visible="true" weight="0.32550693" />
-      <window_info id="Web" order="2" sideWeight="0.11386697" side_tool="true" visible="true" weight="0.32550693" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3179256" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.029312288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.2289221" />
+      <window_info id="Web" order="2" sideWeight="0.36633664" side_tool="true" weight="0.20064034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.313416" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295838" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32919955" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="15" visible="true" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3156708" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.313416" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20293123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Regex" order="8" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.029312288" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -686,21 +774,21 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32807216" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27267876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.22358592" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32919955" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" weight="0.084311634" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.17716116" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.36633664" side_tool="true" weight="0.20064034" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,34 +806,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/d.java" />
-    <entry file="file://$PROJECT_DIR$/web/styles/w3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="360" column="174" selection-start-line="360" selection-start-column="174" selection-end-line="360" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Telegram Desktop/ChyselniMetody1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Model.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/enums/Query.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/connectionPool/ConnectionPool.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/WrongDataException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/NotFoundUserException.java" />
     <entry file="file://$PROJECT_DIR$/web/view/registrationPage.jsp" />
     <entry file="file://$PROJECT_DIR$/web/view/userRoomPage.jsp" />
@@ -755,22 +816,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/command/Command.java" />
     <entry file="file://$PROJECT_DIR$/web/view/adminPage.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/ItemService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servlets.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/DataBaseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/ServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,38 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c99a1a7d-8854-4488-8ed5-c2fdecb42039/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -825,141 +841,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/list.jsp">
+    <entry file="file://$PROJECT_DIR$/web/view/unloginusermenu.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/view/loginusermenu.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/WrongDataException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/utils/Validation.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/AddServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/delete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="51" column="15" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/unloginusermenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/loginusermenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/adminmenu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="120" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/ModelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="186">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -970,10 +871,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/ModelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/filter/RoleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="168" column="37" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/exception/DataBaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c99a1a7d-8854-4488-8ed5-c2fdecb42039/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/utils/ServletUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="90" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/ErrorPageServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/errorPage.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/ListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="113" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/user_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
         </state>
       </provider>
     </entry>

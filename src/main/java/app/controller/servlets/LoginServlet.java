@@ -2,7 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
-import app.controller.service.utils.Validation;
+import app.exception.ServiceException;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -10,13 +10,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Objects;
 
 public class LoginServlet extends HttpServlet
 {
-    private static Validation validation;
-    private final String userID = "admin";
-    private final String password = "pass";
 
     @Override
     protected void doGet(HttpServletRequest req,HttpServletResponse resp)throws ServletException, IOException
@@ -28,26 +27,48 @@ public class LoginServlet extends HttpServlet
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        String wrongData = "Wrong data !";
         String mail = req.getParameter("mail");
         String pass = req.getParameter("pass");
-        String done = "done";
-
-        String wrongData = "Empty field(s)!";
-        if((validation.isEmpty(pass,mail) == false)&&(userID.equals(mail) && password.equals(pass)))
-        {
+        try {
+        if(Objects.nonNull(mail) && Objects.nonNull(pass)) {
 
             UserService userService = new UserServiceImpl();
-            User user = userService.findByMailAndPass(mail,pass);
-            //continue with login
-            if(validation.isEmpty(user.getMail(),user.getPassword())==false)
+            User user = userService.findByMailAndPass(mail, pass);
+
+            if(Objects.nonNull(user.getMail()) && Objects.nonNull(user.getPassword()))
             {
-                req.setAttribute("done",done);
-                doGet(req,resp);
+
+                req.getSession().setAttribute("user",user);
+
+                if(user.getAccessLevel() == 2)
+                {
+                    RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/view/user_page.jsp");
+                    requestDispatcher.forward(req, resp);
+                }
+                else if(user.getAccessLevel() == 3)
+                {
+                    RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/view/admin_page.jsp");
+                    requestDispatcher.forward(req, resp);
+                }
+                else
+                    {
+                        System.out.println("wrong access level");
+                        throw new ServiceException();
+                    }
             }
-        }else
+            else
+                {
+                    System.out.println("wrong null fields");
+                    throw new ServiceException();
+                }
+
+            }
+        }catch (Exception ex)
         {
             req.setAttribute("wrongData",wrongData);
             doGet(req,resp);
         }
+
     }
 }

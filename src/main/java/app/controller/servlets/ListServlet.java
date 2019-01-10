@@ -2,9 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
-import app.controller.service.utils.Validation;
-import app.dao.UserDao;
-import app.dao.impl.UserDatabaseDao;
+import app.controller.utils.ValidationData;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -18,7 +16,7 @@ import java.util.List;
 
 public class ListServlet extends HttpServlet
 {
-    private static Validation validation;
+    private static ValidationData validationData;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -27,7 +25,7 @@ public class ListServlet extends HttpServlet
 
         List<String>user = new ArrayList<>();
 
-        if(validation.isEmpty(users.toString()) == false)
+        if(validationData.isValidParam(users.toString()))
         {
         for(User u : users)
         {
@@ -38,7 +36,7 @@ public class ListServlet extends HttpServlet
         req.setAttribute("user",user);
 
 
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/list.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("WEB-INF/view/list.jsp");
         requestDispatcher.forward(req,resp);
     }
 }

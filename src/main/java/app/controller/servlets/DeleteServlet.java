@@ -2,9 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
-import app.controller.service.utils.Validation;
-import app.dao.UserDao;
-import app.dao.impl.UserDatabaseDao;
+import app.controller.utils.ValidationData;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -16,10 +14,10 @@ import java.io.IOException;
 
 public class DeleteServlet extends HttpServlet
 {
-    private static Validation validation;
+    private static ValidationData validationData;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/delete.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("WEB-INF/view/login.jsp");
         requestDispatcher.forward(req,resp);
     }
 
@@ -29,7 +27,7 @@ public class DeleteServlet extends HttpServlet
         String mail = req.getParameter("mail");
         String pass = req.getParameter("pass");
 
-        if(validation.isEmpty(pass,mail) == false) {
+        if(validationData.isValidParam(pass,mail)) {
             User user = new User(mail, pass);
             UserService userService = new UserServiceImpl();
             userService.delete(user);

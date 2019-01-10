@@ -16,11 +16,25 @@ public class User extends Model
     public User() {
     }
 
+    public User(String mail)
+    {
+        this.mail = mail;
+    }
+
     public User(String mail, String password)
     {
 
         this.mail = mail;
         this.password = password;
+
+    }
+
+    public User(String mail, String password, int accessLevel)
+    {
+
+        this.mail = mail;
+        this.password = password;
+        this.accessLevel = accessLevel;
 
     }
 

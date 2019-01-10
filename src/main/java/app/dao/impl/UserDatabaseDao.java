@@ -14,7 +14,7 @@ public class UserDatabaseDao implements UserDao
 	private static final String ID = "postgres";
 	private static final String PASS = "4f1d18e0";
 
-    private static final String CREATE = "INSERT INTO users(mail,pass,accesslevel) VALUES(?,?,?)";
+    private static final String CREATE = "INSERT INTO users(mail,pass,age,accesslevel) VALUES(?,?,?,?)";
     private static final String UPDATE = "UPDATE users SET mail = ?, pass = ? WHERE mail = ?AND pass = ?";
     private static final String DELETE = "DELETE FROM users WHERE mail = ? AND pass = ?";
     private static final String FIND_BY_NAMES = "SELECT * FROM users WHERE mail = ?";
@@ -29,7 +29,8 @@ public class UserDatabaseDao implements UserDao
         {
             preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
-            preparedStatement.setInt(3,2);
+            preparedStatement.setInt(3,user.getAge());
+            preparedStatement.setInt(4,2);
             preparedStatement.execute();
             return true;
         }
@@ -92,11 +93,10 @@ public class UserDatabaseDao implements UserDao
 
             if(resultSet.next())
             {
-               User user = new User();
-               user.setMail(resultSet.getString("mail"));
-               user.setPassword(resultSet.getString("pass"));
-                return user;
-            }else
+                String pass = resultSet.getString("pass");
+                return new User(mail,pass);
+            }
+            else
             return null ;
         }catch (SQLException ex)
         {
@@ -115,10 +115,10 @@ public class UserDatabaseDao implements UserDao
 
             if(resultSet.next())
             {
-                User user = new User();
-                user.setMail(resultSet.getString("mail"));
-                user.setPassword(resultSet.getString("pass"));
-                return user;
+                String mail = resultSet.getString("mail");
+                String pass = resultSet.getString("pass");
+
+                return new User(mail,pass);
             }else
                 return null ;
         }catch (SQLException ex)
@@ -137,15 +137,15 @@ public class UserDatabaseDao implements UserDao
                 ResultSet resultSet = preparedStatement.executeQuery();
                 while (resultSet.next())
                 {
-                    User user = new User();
-                    user.setMail(resultSet.getString("mail"));
-                    user.setPassword(resultSet.getString("pass"));
-                    users.add(user);
+                    String mail = resultSet.getString("mail");
+                    String pass = resultSet.getString("pass");
+
+                    users.add(new User(mail,pass));
                 }
         }
         catch (SQLException ex)
         {
-            throw new RuntimeException("Cannt find all",ex);
+            throw new RuntimeException("Cannot find all",ex);
         }
         return users;
     }
@@ -153,7 +153,7 @@ public class UserDatabaseDao implements UserDao
     @Override
     public User findByMailAndPass(String mail, String pass)
     {
-        final String FIND_BY_MAIL_AND_PASS = "SELECT * FROM users WHERE mail = ?, pass = ?";
+        final String FIND_BY_MAIL_AND_PASS = "SELECT * FROM users WHERE mail = ? AND pass = ?";
 
         try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS);PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_MAIL_AND_PASS))
         {
@@ -164,11 +164,9 @@ public class UserDatabaseDao implements UserDao
 
             if(resultSet.next())
             {
-                User user = new User(mail,pass);
-                user.setMail(mail);
-                user.setPassword(pass);
+                int accessLevel = resultSet.getInt("accessLevel");
 
-                return user;
+                return new User(mail,pass,accessLevel);
             }
             else
                 {

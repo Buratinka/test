@@ -2,9 +2,7 @@ package app.controller.servlets;
 
 import app.controller.service.UserService;
 import app.controller.service.impl.UserServiceImpl;
-import app.controller.service.utils.Validation;
-import app.dao.UserDao;
-import app.dao.impl.UserDatabaseDao;
+import app.controller.utils.ValidationData;
 import app.model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -18,10 +16,10 @@ import java.util.List;
 
 public class UpdateServlet extends HttpServlet
 {
-    private static Validation validation;
+    private static ValidationData validationData;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("view/update.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("WEB-INF/view/update.jsp");
         requestDispatcher.forward(req,resp);
     }
 
@@ -33,7 +31,7 @@ public class UpdateServlet extends HttpServlet
         String newMail = req.getParameter("newMail");
         String newPass = req.getParameter("newPass");
 
-        if(validation.isEmpty(oldMail,oldPass,newMail,newPass) == false) {
+        if(validationData.isValidParam(oldMail,oldPass,newMail,newPass)) {
         User oldUser = new User(oldMail,oldPass);
         User newUser = new User(newMail,newPass);
 
