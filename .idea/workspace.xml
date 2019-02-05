@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab388218-12b4-4616-a689-a7f38e79e9b8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab388218-12b4-4616-a689-a7f38e79e9b8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
@@ -38,7 +36,7 @@
       <file leaf-file-name="FilmServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/impl/FilmServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="90">
               <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,7 +111,7 @@
       <file leaf-file-name="FilmDatabaseDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/FilmDatabaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="150">
               <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -306,6 +304,93 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="servlets" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="dao" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -470,93 +555,6 @@
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
               <item name="c99a1a7d-8854-4488-8ed5-c2fdecb42039" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-              <item name="servlets" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="dao" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlets" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Servlets" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -786,6 +784,7 @@
       <workItem from="1549299592667" duration="132000" />
       <workItem from="1549349202516" duration="7007000" />
       <workItem from="1549385245001" duration="706000" />
+      <workItem from="1549386167581" duration="295000" />
     </task>
     <task id="LOCAL-00001">
       <created>1544963763948</created>
@@ -798,7 +797,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230861000" />
+    <option name="totallyTimeSpent" value="231156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="180" y="29" width="973" height="995" extended-state="0" />
@@ -821,10 +820,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32816228" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36302143" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919955" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3210024" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.3656958" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32023808" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.37432578" />
       <window_info id="Web" order="2" sideWeight="0.36633664" side_tool="true" weight="0.20064034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -832,10 +831,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.313416" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32919955" />
@@ -1184,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/FilmDatabaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="150">
           <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1204,7 +1203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/service/impl/FilmServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="90">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
