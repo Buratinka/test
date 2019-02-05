@@ -8,55 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab388218-12b4-4616-a689-a7f38e79e9b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/ModelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/ModelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/RegistrationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/utils/ValidationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/controller/utils/ValidationData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/ItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/ItemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/impl/UserDatabaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/classes/app/dao/impl/UserDatabaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/admin_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/admin_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/user_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/view/user_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Servlets_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/service/ModelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/service/ModelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/DeleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/utils/ValidationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/ItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/ModelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/service/ModelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/DeleteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/DeleteServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/RegistrationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/utils/ValidationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/utils/ValidationData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/dao/ItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dao/ItemDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/dao/impl/UserDatabaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/dao/impl/UserDatabaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/admin_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/user_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/user_page.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,7 +59,7 @@
       <file leaf-file-name="Film.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="285">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
@@ -144,7 +95,7 @@
       <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="240">
               <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
@@ -174,7 +125,7 @@
       <file leaf-file-name="UserDatabaseDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1095">
+            <state relative-caret-position="30">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -278,9 +229,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="613" />
-    <option name="y" value="278" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="180" />
+    <option name="y" value="29" />
     <option name="width" value="973" />
     <option name="height" value="995" />
   </component>
@@ -293,43 +244,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <expand>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
             </path>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
             </path>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
             </path>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="controller" type="cbb8eebc:String" user="controller" />
             </path>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-              <item name="servlets" type="1f31426a:PackageElementNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="controller" type="cbb8eebc:String" user="controller" />
+              <item name="servlets" type="cbb8eebc:String" user="servlets" />
             </path>
             <path>
-              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="dao" type="1f31426a:PackageElementNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="dao" type="cbb8eebc:String" user="dao" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="web" type="cbb8eebc:String" user="web" />
+              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
+              <item name="view" type="cbb8eebc:String" user="view" />
             </path>
           </expand>
           <select />
@@ -504,63 +475,43 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="controller" type="cbb8eebc:String" user="controller" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="service" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="controller" type="cbb8eebc:String" user="controller" />
-              <item name="servlets" type="cbb8eebc:String" user="servlets" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="servlets" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="src/main/java" type="cbb8eebc:String" user="src/main/java" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="dao" type="cbb8eebc:String" user="dao" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Servlets" type="cbb8eebc:String" user="Servlets" />
-              <item name="web" type="cbb8eebc:String" user="web" />
-              <item name="WEB-INF" type="cbb8eebc:String" user="WEB-INF" />
-              <item name="view" type="cbb8eebc:String" user="view" />
+              <item name="Servlets" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Servlets" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="dao" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -834,6 +785,7 @@
       <workItem from="1549045057114" duration="12175000" />
       <workItem from="1549299592667" duration="132000" />
       <workItem from="1549349202516" duration="7007000" />
+      <workItem from="1549385245001" duration="706000" />
     </task>
     <task id="LOCAL-00001">
       <created>1544963763948</created>
@@ -846,10 +798,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230155000" />
+    <option name="totallyTimeSpent" value="230861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="180" y="29" width="973" height="995" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -869,10 +821,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919955" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36302143" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30326945" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.178762" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32919955" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3210024" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63366336" visible="true" weight="0.3656958" />
       <window_info id="Web" order="2" sideWeight="0.36633664" side_tool="true" weight="0.20064034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1211,7 +1163,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="285">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
@@ -1242,7 +1194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/dao/impl/UserDatabaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1095">
+        <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1269,7 +1221,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/servlets/RegistrationServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="240">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
