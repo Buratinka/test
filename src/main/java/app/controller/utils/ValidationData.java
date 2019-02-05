@@ -6,16 +6,8 @@ public class ValidationData
 {
     public static boolean isValidParam(Object ... param)
     {
-        boolean f = false;
-        try
-        {
-        if(Objects.nonNull(param) && param != null)f = true;
-        }
-        catch (NullPointerException ex)
-        {
+        if(Objects.nonNull(param))return true;
         return false;
-        }
-        return f;
     }
 
     public static boolean isValidAge(int age)

@@ -1,5 +1,6 @@
 package app.dao.impl;
 
+import app.connectionPool.ConnectionPool;
 import app.dao.UserDao;
 import app.model.User;
 
@@ -10,9 +11,9 @@ import java.util.regex.Pattern;
 
 public class UserDatabaseDao implements UserDao
 {
-	private static final String DB_URL = "jdbc:postgresql:servlets";
-	private static final String ID = "postgres";
-	private static final String PASS = "4f1d18e0";
+//	private static final String DB_URL = "jdbc:postgresql:servlets";
+//	private static final String ID = "postgres";
+//	private static final String PASS = "4f1d18e0";
 
     private static final String CREATE = "INSERT INTO users(mail,pass,age,accesslevel) VALUES(?,?,?,?)";
     private static final String UPDATE = "UPDATE users SET mail = ?, pass = ? WHERE mail = ?AND pass = ?";
@@ -25,13 +26,13 @@ public class UserDatabaseDao implements UserDao
     @Override
     public boolean add(User user)
     {
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(CREATE))
+        try(Connection connection = ConnectionPool.getInstance().getConnection(); PreparedStatement preparedStatement = connection.prepareStatement(CREATE))
         {
             preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
             preparedStatement.setInt(3,user.getAge());
             preparedStatement.setInt(4,2);
-            preparedStatement.execute();
+            preparedStatement.executeUpdate();
             return true;
         }
         catch (SQLException ex)
@@ -49,7 +50,7 @@ public class UserDatabaseDao implements UserDao
         User oldUser = updaterUser.get(0);
         User newUser = updaterUser.get(1);
 
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(UPDATE))
+        try(Connection connection = ConnectionPool.getInstance().getConnection(); PreparedStatement preparedStatement = connection.prepareStatement(UPDATE))
         {
             preparedStatement.setString(1,newUser.getMail());
             preparedStatement.setString(2,newUser.getPassword());
@@ -68,7 +69,7 @@ public class UserDatabaseDao implements UserDao
     @Override
     public boolean delete(User user)
     {
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS);PreparedStatement preparedStatement = connection.prepareStatement(DELETE))
+        try(Connection connection = ConnectionPool.getInstance().getConnection();PreparedStatement preparedStatement = connection.prepareStatement(DELETE))
         {
             preparedStatement.setString(1,user.getMail());
             preparedStatement.setString(2,user.getPassword());
@@ -85,7 +86,7 @@ public class UserDatabaseDao implements UserDao
     @Override
     public User findByMail(String mail)
     {
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_NAMES))
+        try(Connection connection = ConnectionPool.getInstance().getConnection(); PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_NAMES))
         {
             preparedStatement.setString(1,mail);
 
@@ -108,7 +109,7 @@ public class UserDatabaseDao implements UserDao
     @Override
     public User findById(Integer id)
     {
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_ID))
+        try(Connection connection = ConnectionPool.getInstance().getConnection(); PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_ID))
         {
             preparedStatement.setInt(1,id);
             ResultSet resultSet = preparedStatement.executeQuery();
@@ -131,7 +132,7 @@ public class UserDatabaseDao implements UserDao
     public List<User> findAll()
     {
         List<User> users = new ArrayList<>();
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS); PreparedStatement preparedStatement = connection.prepareStatement(FIND_ALL))
+        try(Connection connection = ConnectionPool.getInstance().getConnection(); PreparedStatement preparedStatement = connection.prepareStatement(FIND_ALL))
         {
 
                 ResultSet resultSet = preparedStatement.executeQuery();
@@ -155,7 +156,7 @@ public class UserDatabaseDao implements UserDao
     {
         final String FIND_BY_MAIL_AND_PASS = "SELECT * FROM users WHERE mail = ? AND pass = ?";
 
-        try(Connection connection = DriverManager.getConnection(DB_URL,ID,PASS);PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_MAIL_AND_PASS))
+        try(Connection connection = ConnectionPool.getInstance().getConnection();PreparedStatement preparedStatement = connection.prepareStatement(FIND_BY_MAIL_AND_PASS))
         {
             preparedStatement.setString(1,mail);
             preparedStatement.setString(2,pass);

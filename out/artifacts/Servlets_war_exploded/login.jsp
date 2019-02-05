@@ -14,11 +14,12 @@
     <title>Login</title>
     <link rel="stylesheet" href="styles/w3.css">
 </head>
-<body class="w3-light-grey">
-<div class="w3-container w3-center">       <!-- content -->
+<body class="w3-black">
+<div align="center">
+<div class="w3-card-4 w3-quarter w3-margin-top w3-gray">       <!-- content -->
 
     <div class="w3-bar w3-padding-large w3-padding-24">
-        <form method="post" class="w3-selection w3-light-grey w3-padding" action="/login">
+        <form method="post" class="w3-selection w3-blue-grey w3-padding" action="/login">
             <label>Mail:
                 <input type="text" name="mail" class="w3-input w3-animate-input w3-border w3-round-large" style="width: 30%"><br />
             </label>
@@ -40,10 +41,10 @@
     </c:if>
 </div>
 
-<div class="w3-container w3-grey w3-opacity w3-center-align w3-padding">
-    <a href="WEB-INF/view/login.jsp">
-    <button class="w3-btn w3-round-large">Back to main</button>
-    </a>
+<div class="w3-container w3-grey w3-opacity w3-quarter w3-padding">
+    <button class="w3-btn w3-round-large" onclick="location.href='/registration'">Registration</button><br/>
+    <button class="w3-btn w3-round-large w3-border" onclick="location.href='/guest_page'">login as guest</button>
+</div>
 </div>
 </body>
 </html>

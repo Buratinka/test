@@ -13,13 +13,20 @@
     <title>User page</title>
     <link rel="stylesheet" href="styles/w3.css">
 </head>
-<body>
 
+<body class="w3-black">
+<div align="center">
 
+    <div class="w3-card-4 w3-quarter w3-margin-top w3-gray">
 
-<div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
-    <button class="w3-btn w3-round-large" onclick="location.href='..'">Logout</button>
+    </div>
+
+    <div class="w3-container w3-grey w3-opacity w3-quarter w3-padding">
+        <button class="w3-btn w3-round-large" onclick="location.href='..'">Logout</button>
+    </div>
+
 </div>
+
 
 </body>
 </html>

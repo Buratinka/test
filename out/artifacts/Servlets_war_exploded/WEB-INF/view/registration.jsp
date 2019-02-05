@@ -11,22 +11,21 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Add user</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="styles/w3.css">
 </head>
 
-<body class="w3-btn w3-hover-green w3-round-large">
+<body class="w3-black">
 
-<div class="w3-container w3-blue-grey w3-opacity w3-right-align">
-    <h1>Super app!</h1>
-</div>
-<div class="w3-container w3-padding">
+<div align="center">
 
-    <c:if test="${requestScope.userData!=null}">
+<div class="w3-container w3-quarter w3-margin-top w3-gray">
+
+    <c:if test="${requestScope.successData!=null}">
         <div class="w3-panel w3-green w3-display-container w3-card-4 w3-round">
                 <span onclick="this.parentElement.style.display='none'"
                       class="w3-button w3-margin-right w3-display-right w3-round-large w3-hover-green w3-border w3-border-green w3-hover-border-grey" >×</span>
-            <h5><c:out value="User ${requestScope.userData} added"/></h5>
+            <h5><c:out value="Success !"/></h5>
 
         </div>
     </c:if>
@@ -69,9 +68,10 @@
     </div>
 </div>
 
-<div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
+<div class="w3-container w3-grey w3-opacity w3-quarter w3-padding">
+    <button class="w3-btn w3-round-large" onclick="history.back()">Previous page</button>
     <button class="w3-btn w3-round-large" onclick="location.href='..'">Back to main</button>
 </div>
-
+</div>
 </body>
 </html>

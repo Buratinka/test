@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Delete user</title>
-    <link rel="stylesheet" href="styles/w3.css">
+    <link rel="stylesheet" href="../styles/w3.css">
 </head>
 <body class="w3-btn w3-hover-green w3-round-large">
 
@@ -55,6 +55,7 @@
 </div>
 
 <div class="w3-container w3-grey w3-opacity w3-right-align w3-padding">
+    <button class="w3-btn w3-round-large" onclick="history.back()">Previous page</button>
     <button class="w3-btn w3-round-large" onclick="location.href='..'">Back to main</button>
 </div>
 

@@ -8,9 +8,8 @@ public interface ModelService<K, T extends Model>
 {
     boolean add(T t);
     T update(List<T> t);
-    boolean delete(T user);
-
+    boolean delete(T t);
     T findById(K id);
-    T findByMail(String mail);
+
     List<T> findAll();
 }

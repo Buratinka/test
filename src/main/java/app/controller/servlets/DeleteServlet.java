@@ -17,7 +17,7 @@ public class DeleteServlet extends HttpServlet
     private static ValidationData validationData;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("WEB-INF/view/login.jsp");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("WEB-INF/view/delete.jsp");
         requestDispatcher.forward(req,resp);
     }
 

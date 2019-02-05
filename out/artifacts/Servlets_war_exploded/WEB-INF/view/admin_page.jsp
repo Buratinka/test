@@ -21,5 +21,10 @@
         <button class="w3-btn w3-hover-light-gray w3-round-large" onclick="location.href='/update'">Update user</button>
     </div>
 </div>
+<div align="center">
+<div class="w3-container w3-opacity w3-quarter w3-padding" align="center">
+    <button class="w3-btn w3-round-large" onclick="location.href='..'">Back to main</button>
+</div>
+</div>
 </body>
 </html>

@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Objects;
 
 public class RegistrationServlet extends HttpServlet
 {
@@ -23,33 +24,38 @@ public class RegistrationServlet extends HttpServlet
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String wrongData = "Wrong Data !";
-        String wrongAge = "Incorrect age !";
-        String pass = req.getParameter("pass");
-        String mail = req.getParameter("mail");
-        int age = Integer.parseInt(req.getParameter("age"));
+        String wrongData = "Wrong data !";
+        String wrongAge = "Wrong age! You must be over 9 years old.";
+        String successData = "Success !";
+
+try {
+    String pass = req.getParameter("pass");
+    String mail = req.getParameter("mail");
+    int age = Integer.parseInt(req.getParameter("age"));
+
+    if(age < 10)
+    {
+        req.setAttribute("wrongAge", wrongAge);
+        doGet(req, resp);
+    }
+        if (!pass.equals("") && !mail.equals("")){
+        User user = new User(mail, pass, age);
+        UserService userService = new UserServiceImpl();
+        userService.add(user);
 
 
-
-
-        if(!validationData.isValidParam(pass,mail,age)) {
-            req.setAttribute("wrongData", wrongData);
-            doGet(req, resp);
-        }
-        else if(!validationData.isValidAge(age))
-        {
-            req.setAttribute("wrongAge",wrongAge);
-            doGet(req,resp);
+        req.setAttribute("successData", successData);
+        doGet(req, resp);
         }
         else
             {
-                User user = new User(mail,pass,age);
-                UserService userService = new UserServiceImpl();
-                userService.add(user);
-
-
-                req.setAttribute("userData", mail);
-                doGet(req, resp);
+                throw new NullPointerException();
             }
+
+} catch (NullPointerException ex)
+{
+    req.setAttribute("wrongData", wrongData);
+    doGet(req, resp);
+}
     }
 }
